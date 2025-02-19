@@ -7,7 +7,7 @@ let myPrice = document.getElementById("myPrice");
 let myButton = document.getElementById("myButton");
 let myRegex = /^[a-zA-Z\s]+$/;
 let myRegex2 = /^[0-9]*\.?[0-9]+$/;
-
+//-------------------------------- functions --------------------------
 function WrongInput(message, err) {
   window.alert(message);
   err.innerHTML = message;
